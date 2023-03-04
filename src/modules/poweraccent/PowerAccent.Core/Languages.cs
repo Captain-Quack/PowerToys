@@ -95,7 +95,7 @@ namespace PowerAccent.Core
                 LetterKey.VK_5 => new string[] { "₅", "⁵" },
                 LetterKey.VK_6 => new string[] { "₆", "⁶" },
                 LetterKey.VK_7 => new string[] { "₇", "⁷" },
-                LetterKey.VK_8 => new string[] { "₈", "⁸" },
+                LetterKey.VK_8 => new string[] { "₈", "⁸", "∞" },
                 LetterKey.VK_9 => new string[] { "₉", "⁹" },
                 LetterKey.VK_A => new string[] { "á", "à", "ä", "â", "ă", "å", "α", "ā", "ą", "ȧ", "ã", "æ" },
                 LetterKey.VK_B => new string[] { "ḃ", "β" },
@@ -121,9 +121,10 @@ namespace PowerAccent.Core
                 LetterKey.VK_X => new string[] { "ẋ", "ξ" },
                 LetterKey.VK_Y => new string[] { "ÿ", "ŷ", "ý", "ẏ" },
                 LetterKey.VK_Z => new string[] { "ź", "ž", "ż", "ʒ", "ǯ", "ζ" },
-                LetterKey.VK_COMMA => new string[] { "¿", "¡", "∙", "₋", "⁻", "–", "≤", "≥", "≠", "≈", "≙", "±", "₊", "⁺" },
+                LetterKey.VK_COMMA => new string[] { "¿", "¡", "∙", "₋", "⁻", "–", "‽", "‡", "™", "§", "¶", "™", "®", "©" },
                 LetterKey.VK_PERIOD => new string[] { "\u0300", "\u0301", "\u0302", "\u0303", "\u0304", "\u0308", "\u030C" },
-                LetterKey.VK_MINUS => new string[] { "~", "‐", "‑", "‒", "–", "—", "―", "⁓", "−", "⸺", "⸻" },
+                LetterKey.VK_MINUS => new string[] {  "‐", "‑", "‒", "–", "—", "―", "⁓", "−", "⸺", "⸻" },
+                LetterKey.VK_EQUALS => new string[] { "≡", "≤", "≥", "≠", "≈", "≙", "~", "≅", "≇", "±", "₊", "⁺" },
                 _ => Array.Empty<string>(),
             };
         }
@@ -363,7 +364,7 @@ namespace PowerAccent.Core
                 LetterKey.VK_P => new string[] { "π" },
                 LetterKey.VK_S => new string[] { "$" },
                 LetterKey.VK_U => new string[] { "ú" },
-                LetterKey.VK_COMMA => new string[] { "≤", "≥", "≠", "≈", "≙", "±", "₊", "⁺" },
+                LetterKey.VK_EQUALS => new string[] { "≤", "≥", "≠", "≈", "≙", "±", "₊", "⁺" },
                 _ => Array.Empty<string>(),
             };
         }
